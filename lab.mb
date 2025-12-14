@@ -1,0 +1,20 @@
+ 🔐 Build a Secure Google Cloud Network — Challenge Lab  
+This repository contains a shell script that automates tasks for the Build a Secure Google Cloud Network challenge lab on Google Cloud Skill Boost.
+
+ 🚀 Run the Lab Automation Script in Cloud Shell
+
+ 1️⃣ Set your Zone  
+
+export ZONE=
+Example:  
+export ZONE=us-central1-a
+---
+
+ 2️⃣ Download and Execute the Script  
+Use the following commands in Cloud Shell:
+
+curl -LO https://raw.githubusercontent.com/mummidisettydhanushsaiteja/Build-a-Secure-Google-Cloud-Network/main/secure-network.sh
+sudo chmod +x secure-network.sh
+./secure-network.sh
+
+
